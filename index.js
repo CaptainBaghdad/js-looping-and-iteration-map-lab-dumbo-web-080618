@@ -20,3 +20,19 @@ function nameToAttributes(drivers){
   
   
 }
+
+
+function attributesToPhrase(drivers){
+  drivers.map(function(ele){
+    
+  });
+  
+}
+
+
+
+
+
+
+
+
