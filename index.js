@@ -19,10 +19,7 @@ function nameToAttributes(drivers){
   //console.log(arr);
   return arr.map(function(ele){
     
-    obj.firstName = ele[0];
-    obj.lastName = ele[1];
-    console.log(obj);
-    return obj;
+   return {'firstName': drivers.split};
    
     
   });
