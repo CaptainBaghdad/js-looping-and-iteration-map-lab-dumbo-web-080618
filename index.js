@@ -17,6 +17,10 @@ function nameToAttributes(drivers){
   
   }
   console.log(arr);
+  for(let j = 0 ; j < arr.length;j++){
+    Object.assign({}, )
+    
+  }
   
   
   
