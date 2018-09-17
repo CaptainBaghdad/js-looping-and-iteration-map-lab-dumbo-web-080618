@@ -12,7 +12,7 @@ function nameToAttributes(drivers){
   
   return drivers.map(function(ele){
     
-   console.log({'firstName': ele.split(' ')[0], 'lastName': ele.split(' ')[1]})
+   return {'firstName': ele.split(' ')[0], 'lastName': ele.split(' ')[1]}
    
     
   });
