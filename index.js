@@ -10,7 +10,7 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   let arr = [];
-  let obj = {};
+  var obj = {};
   for(let i = 0; i < drivers.length;i++){
   arr.push(drivers[i].split(" "));
   
