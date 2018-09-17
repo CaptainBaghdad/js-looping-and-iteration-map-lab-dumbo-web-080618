@@ -16,7 +16,7 @@ function nameToAttributes(drivers){
   
   
   }
-  console.log(arr);
+  //console.log(arr);
   return arr.map(function(ele){
     Object.assign({}, obj);
     obj.firstName = ele[0];
