@@ -19,7 +19,7 @@ function nameToAttributes(drivers){
   //console.log(arr);
   return arr.map(function(ele){
     
-   {'firstName': ele.split(' ')[0], 'lastName': ele.split(' ')[1]};
+   console.log({'firstName': ele.split(' ')[0], 'lastName': ele.split(' ')[1]});
    
     
   });
