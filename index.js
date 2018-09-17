@@ -21,7 +21,7 @@ function nameToAttributes(drivers){
     
     obj.firstName = ele[0];
     obj.lastName = ele[1];
-    
+    console.log(obj);
     return obj;
    
     
