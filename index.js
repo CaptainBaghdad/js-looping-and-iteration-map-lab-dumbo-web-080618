@@ -18,8 +18,8 @@ function nameToAttributes(drivers){
   }
   console.log(arr);
   return arr.map(function(ele){
-    obj[first_name] = ele[0];
-    obj[last_name] = ele[1];
+    obj[firstName] = ele[0];
+    obj[lastName] = ele[1];
     return obj;
     
   });
